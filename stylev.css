@@ -1,37 +1,38 @@
-    body {
-        font-family: Arial, sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 530px;
-        background-color: #fff;
-    }
-    form {
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        width: 300px;
-    }
-    h2 {
-        text-align: center;
-    }
-    #v-text,#v-email,#v-pass{
-        width: calc(100% - 20px);
-        padding: 10px;
-        margin: 10px 0;
-        border: 1px solid #ccc;
-        border-radius: 3px;
-    }
-    #v-regsub {
-        width: 100%;
-        background-color: black;
-        color: #fff;
-        border: none;
-        padding: 10px;
-        border-radius: 3px;
-        cursor: pointer;
-    }
-    input[type="submit"]:hover {
-        background-color: #0056b3;
-    }
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 530px;
+    background-color: #fff;
+}
+#v-form1 {
+    background-color: rgba(255,255,255,0.7);
+    padding-top: 127px;
+    padding-bottom: 26px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    opacity: 100%;
+}
+#v-1 {
+    text-align: center;
+}
+.v-reg{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#v-regsub {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding : 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
