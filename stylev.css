@@ -1,3 +1,4 @@
+/*body is common for login and registration*/
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -9,6 +10,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+/*form for registration*/
 #v-form1 {
     background-color: rgba(255,255,255,0.7);
     padding-left: 5%;
@@ -22,6 +24,7 @@ body {
     margin-top: auto;
     margin-bottom: 0%;
 }
+/*form for login*/
 #v-form2 {
     background-color: rgba(255,255,255,0.7);
     padding-top: 2%;
@@ -33,9 +36,11 @@ body {
     width: 300px;
     opacity: 100%;
 }
+/*class of h2 in registration form and login form*/
 .h2-1 {
     text-align: center;
 }
+/*class of inputs in registration and login forms*/
 .v-reg{
     width: calc(100% - 20px);
     padding: 10px;
@@ -43,7 +48,8 @@ body {
     border: 1px solid #ccc;
     border-radius: 3px;
 }
-#v-regsub {
+/*class for submit buttons in both forms*/
+.v-regsub {
     width: 100%;
     background-color: black;
     color: #fff;
