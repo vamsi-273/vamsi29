@@ -13,6 +13,7 @@ body {
 /*form for registration*/
 #v-form1 {
     background-color: rgba(255,255,255,0.7);
+    color: #11235A;
     padding-left: 5%;
     padding-right: 5%;
     border-radius: 20px;
@@ -27,6 +28,7 @@ body {
 /*form for login*/
 #v-form2 {
     background-color: rgba(255,255,255,0.7);
+    color: #11235A;
     padding-top: 2%;
     padding-bottom: 3%;
     padding-left: 5%;
@@ -51,7 +53,7 @@ body {
 /*class for submit buttons in both forms*/
 .v-regsub {
     width: 100%;
-    background-color: black;
+    background-color: #11235A;
     color: #fff;
     border: none;
     padding : 10px;
